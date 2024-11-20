@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Harry Potters Trollstav",
+        "productNumber": "001",
+        "price": 2499,
+        "description": "Den ikoniska trollstaven som tillhörde Harry Potter, perfekt för Expelliarmus!",
+        "imageURL": "/images/harry-potter.jpg"
+    },
+    {
+        "name": "Hermione Grangers Trollstav",
+        "productNumber": "002",
+        "price": 1199,
+        "description": "En elegant trollstav med vinrankor, idealisk för avancerade trollformler.",
+        "imageURL": "/images/hermione-granger.jpg"
+    },
+    {
+        "name": "Ron Weasleys Trollstav",
+        "productNumber": "003",
+        "price": 799,
+        "description": "Ronald Weasleys trogna trollstav, även om den ibland kan vara lite opålitlig.",
+        "imageURL": "/images/ron-weasley.jpg"
+    },
+    {
+        "name": "Voldemorts Trollstav",
+        "productNumber": "004",
+        "price": 1999,
+        "description": "En kraftfull trollstav tillverkad av idegran och fenixfjäder – var försiktig!",
+        "imageURL": "/images/voldemort.jpg"
+    },
+    {   
+        "name": "Albus Dumbledores Trollstav (Elder Wand)",
+        "productNumber": "005",
+        "price": 2599,
+        "description": "Den mäktiga Äldstavens trollstav, en av Dödsrelikerna.",
+        "imageURL": "/images/albus-dumbledore.jpeg"
+    },
+    {
+        "name": "Draco Malfoys Trollstav",
+        "productNumber": "006",
+        "price": 1499,
+        "description": "En trollstav av hagtorn, perfekt för de som söker makt och styrka.",
+        "imageURL": "/images/malfoy.jpg"
+    },
+    {
+        "name": "Sirius Blacks Trollstav",
+        "productNumber": "007",
+        "price": 1999,
+        "description": "En trollstav med utsökta detaljer, idealisk för kraftfull magi.",
+        "imageURL": "/images/sirius-black.jpg"
+    },
+    {
+        "name": "Bellatrix Lestranges Trollstav",
+        "productNumber": "008",
+        "price": 1299,
+        "description": "En böjd trollstav som speglar Bellatrix' unika och farliga karaktär.",
+        "imageURL": "/images/bellatrix.jpg"
+    },
+    {
+        "name": "Severus Snapes Trollstav",
+        "productNumber": "009",
+        "price": 749,
+        "description": "En mystisk och elegant trollstav för dem med talang för mörk magi.",
+        "imageURL": "/images/severus-snape.jpeg"
+    },
+    {
+        "name": "Newt Scamanders Trollstav",
+        "productNumber": "010",
+        "price": 699,
+        "description": "En enkel men kraftfull trollstav som reflekterar Newts kärlek för magiska varelser.",
+        "imageURL": "/images/newt-scamander.jpg"
+    }
+]
+  
