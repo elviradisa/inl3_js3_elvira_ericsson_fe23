@@ -26,13 +26,13 @@ export default function Popup ({isOpen, onClose, product}) {
                 <img src={product.imageURL} alt={product.name} style={{ width: "100px" }} />
                 <p>{product.description}</p>
                 <button onClick={onClose} style={{
-                  marginTop: "10px",
-                  padding: "10px 20px",
-                  border: "none",
-                  backgroundColor: "#007BFF",
-                  color: "white",
-                  borderRadius: "5px",
-                  cursor: "pointer",
+                    marginTop: "10px",
+                    padding: "10px 20px",
+                    border: "none",
+                    backgroundColor: "#007BFF",
+                    color: "white",
+                    borderRadius: "5px",
+                    cursor: "pointer",
                 }}>Stäng</button>
             </div>
         </div>
