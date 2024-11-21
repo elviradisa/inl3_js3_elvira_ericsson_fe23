@@ -1,3 +1,17 @@
+//
+// Elvira Ericsson
+// FE23
+//
+// Popup
+// Visar mer info om en vald produkt i ett popup-fönster
+//
+// Props
+// isOpen - styr om popupen visas
+// onClose - funktion flr att stänga popupen
+// product - den produkten som det visas mer info om
+//
+// Render
+// Visar produktens namn, bild, beskrivning och en stängknapp
 import React from "react";
 
 export default function Popup ({isOpen, onClose, product}) {
@@ -18,12 +32,12 @@ export default function Popup ({isOpen, onClose, product}) {
             <div style={{
                 backgroundColor: "white",
                 padding: "20px",
-                borderRadius: "10px",
+                borderRadius: "5px",
                 maxWidth: "400px",
                 textAlign: "center"
                 }}>
                 <h2>{product.name}</h2>
-                <img src={product.imageURL} alt={product.name} style={{ width: "100px" }} />
+                <img src={product.imageURL} alt={product.name} style={{width: "100px"}}/>
                 <p>{product.description}</p>
                 <button onClick={onClose} style={{
                     marginTop: "10px",
@@ -33,7 +47,7 @@ export default function Popup ({isOpen, onClose, product}) {
                     color: "white",
                     borderRadius: "5px",
                     cursor: "pointer",
-                }}>Stäng</button>
+                    }}>Stäng</button>
             </div>
         </div>
     )
